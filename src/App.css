@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bg_image{
+  background-image: url('https://s.yimg.com/uu/api/res/1.2/UrpbnF2XT6VwrmTtzd600g--~B/aD0xMDgwO3c9MTkyMDtzbT0xO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en_us/autoclassics_668/18eeebb5bc5ec48b84033147e454a434');
+  background-repeat: no-repeat;
+  padding-bottom: 10em;
+  padding-top: 10em;
+  background-position: 40% 40%;
+  color: #fff;
+  
+  background-size: cover;
+}
+
+.h1_bold{
+  font-Size: 52px ;
+  font-Weight: normal;
+  font-Family: Effra,Arial,sans-serif;
+  vertical-align: middle;
+}
+
+.h1_light{
+  font-Size: 52px ;
+  font-Weight: bold;
+  font-Family: Effra,Arial,sans-serif;
+  vertical-align: middle;
+}
+.button{
+  transition-duration: 0.3s;
+  font-Size:18px;
+  margin-Top:24px;
+  padding-Top:15px;
+  padding-Bottom:15px;
+  padding-Left:48px;
+  padding-Right:48px; 
+  color:#ffffff;        
+  background-Color:#e51636;
+  font-Family:"Effra", Arial, sans-serif;
+  border: 3px solid #e51636 ;
+}
+.button:hover{
+  background-color: #ffffff;
+  color:#e51636;
+  border: 3px solid #e51636 ;
+}
+.link{
+  color: #fff;
+}
+.link:hover{
+  
+  color:#e51636;
+
+}
