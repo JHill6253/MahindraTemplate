@@ -75,7 +75,7 @@ export default class App extends Component {
 //----------------------------------------------Start of Rendered components-----------------------------------------------------------------------------------------------------------------\\
         NavBar(){
             return(
-              <Menu fixed='top' size='large'  >
+              <Menu fixed='top' size='large' borderless  >
                   
                   <Menu.Item >
                         
@@ -189,7 +189,7 @@ export default class App extends Component {
               
               <div  >
                 
-                <h1 ><span className='h1_bold'>See how much financing</span> <span className='h1_light'> you qualify for.</span> </h1>
+                <h1 ><span className='h1_bold'></span> <span className='h1_light'> </span> </h1>
                 
               </div>
               {/*<br/>
@@ -322,7 +322,7 @@ export default class App extends Component {
                             
                     <div style={{backgroundColor:'#ffffff'}} >
                       <div style={{border:'5px solid',borderColor: '#e51636'}} >
-                            <h1  style={{textAlign:'center', color:'#fff' ,backgroundColor:'#e51636', padding:'10px'}}>Credit Calculator</h1>
+                            <h1  style={{textAlign:'center', color:'#fff' ,backgroundColor:'#e51636', padding:'10px'}}></h1>
                             
                           <Form style={{padding: '20px'}} >
                           <Container >
@@ -475,6 +475,38 @@ export default class App extends Component {
                   
                   
                                 </Form.Group>
+
+                                <Form.Group widths='equal'>
+                                  <Form.Field required>
+                                      <label style={{
+                                          color: '#666666',
+                                          size:'16px',
+                                          fontWeight: 'normal',
+                                          fontFamily: '"Effra", Arial, sans-serif'}}>
+                                          Email 
+                                        </label>
+                                        <Input
+                                        placeholder='Email'
+
+                                        name='Email' type='text' font='arial'/>
+                                  </Form.Field>
+                                  <Form.Field required>
+                                        <label style={{
+                                            color: '#666666',
+                                            size:'16px',
+                                            fontWeight: 'normal',
+                                            fontFamily: '"Effra", Arial, sans-serif'}}>
+                                            Confirm Email 
+                                          </label>
+                                          <Input
+                                          placeholder='Confirm Email'
+
+                                          name='Phone' type='phone' font='arial'/>
+                                  </Form.Field>
+                  
+                  
+                                </Form.Group>
+
                                 <Form.Group widths='equal'>
                                 <Form.Field required>
                                       <label style={{
@@ -489,19 +521,7 @@ export default class App extends Component {
 
                                         name='Email' type='text' font='arial'/>
                                   </Form.Field>
-                                  <Form.Field required>
-                                      <label style={{
-                                          color: '#666666',
-                                          size:'16px',
-                                          fontWeight: 'normal',
-                                          fontFamily: '"Effra", Arial, sans-serif'}}>
-                                          Email
-                                        </label>
-                                        <Input
-                                        placeholder='Email'
 
-                                        name='Email' type='text' font='arial'/>
-                                  </Form.Field>
                                   <Form.Field required>
                                         <label style={{
                                             color: '#666666',
